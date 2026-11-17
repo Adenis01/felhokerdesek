@@ -1,5 +1,5 @@
 {
-  "count": 260,
+  "count": 325,
   "questions": [
     {
       "id": 1,
@@ -2792,7 +2792,8 @@
         "Mert a mentett változások az utolsó teljes mentés óta halmozódnak."
       ],
       "sources": [
-        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm"
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm",
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
       ]
     },
     {
@@ -2805,7 +2806,8 @@
         "Az RPO és az RTO mindig azonos értékű, mert ugyanazt a kiesést mérik."
       ],
       "sources": [
-        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm"
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm",
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
       ]
     },
     {
@@ -2818,7 +2820,8 @@
         "A terhelés okának vizsgálata, a kapacitásmódosítás megtervezése és az eredmény ellenőrzése."
       ],
       "sources": [
-        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm"
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm",
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
       ]
     },
     {
@@ -2831,7 +2834,8 @@
         "Encryption in Transit"
       ],
       "sources": [
-        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm"
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm",
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
       ]
     },
     {
@@ -2844,7 +2848,8 @@
         "A naplózás megszüntetése"
       ],
       "sources": [
-        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm"
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.htm",
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
       ]
     },
     {
@@ -3365,6 +3370,841 @@
       ],
       "sources": [
         "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 9 of 13) _ Main Moodle.htm"
+      ]
+    },
+    {
+      "id": 261,
+      "question": "Egy vállalat két régiót vizsgál. Mindkettő teljesíti az adatrezidencia-követelményt. Az első olcsóbb, de nem támogatja a kívánt zónaredundáns konfigurációt. A második drágább, de támogatja a szükséges rendelkezésre állási modellt. Ha a zónaredundancia kötelező követelmény, melyik megközelítés helyes?",
+      "options": [
+        "A zónaredundancia helyettesítése egy új subscription vagy account létrehozásával.",
+        "Az első régió választása, mert alacsonyabb a listaára.",
+        "A második régió továbbértékelése, mert az első nem teljesíti a kötelező technikai feltételt.",
+        "Mindkét régió automatikus elfogadása, mert teljesítik az adatrezidenciát."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 1 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 262,
+      "question": "Egy vállalat cloudbeli alkalmazása helyi rendszerből kér adatot. A cloudbeli példányok egészségesek, az adatlekérés mégis hibás. Melyik vizsgálat indokolt?",
+      "options": [
+        "Kizárólag a webes példányok számának növelése.",
+        "A cloud–helyi kapcsolat, DNS, útvonal és szabályok ellenőrzése.",
+        "A helyi függőség figyelmen kívül hagyása.",
+        "Minden adatbázis publikus elérésének engedélyezése."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 1 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 263,
+      "question": "Miért nem elegendő a listaárak összehasonlítása a régióválasztás gazdasági értékelésénél?",
+      "options": [
+        "Mert a cloud szolgáltatásoknak nincs meghatározható ára.",
+        "Mert az adatforgalom, a licencek, a támogatás, a helyreállítás, a migráció és az üzemeltetési szakértelem is befolyásolhatja a teljes költséget.",
+        "Mert a költséget kizárólag az Availability Zone neve határozza meg.",
+        "Mert gazdasági szempontokat csak a telepítés után lehet vizsgálni."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 1 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 264,
+      "question": "Egy Kubernetes-workloadból jelenleg két pod fut, de a csapat négy példányt szeretne fenntartani. Melyik beállítás módosítása illeszkedik a bemutatott működési modellhez?",
+      "options": [
+        "A Service átnevezése négyesre.",
+        "A workload kívánt podpéldányszámának négyre állítása.",
+        "A registryben tárolt image-ek számának négyre korlátozása.",
+        "Négy külön fizikai szerver kötelező létrehozása."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 1 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 265,
+      "question": "Melyik Azure-szint fog össze több subscriptiont közös governance-célból?",
+      "options": [
+        "Availability Zone",
+        "Resource group",
+        "Resource",
+        "Management group"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 1 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 266,
+      "question": "Melyik sorrend fejezi ki helyesen a compliance működési logikáját?",
+      "options": [
+        "Audit → Permission → Identity → Requirement",
+        "Requirement → Control → Evidence → Audit",
+        "Control → Availability Zone → Tag → Authentication",
+        "Evidence → Region → Password → Cost"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 10 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 267,
+      "question": "Melyik állítás választja szét pontosan az SLI, SLO és SLA szerepét?",
+      "options": [
+        "Az SLO teljesítése minden esetben bizonyítja az SLA teljesítését.",
+        "Az SLI célérték, az SLO szerződés, az SLA tényleges mérés.",
+        "Az SLI mérőszám, az SLO cél és időablak, az SLA feltételekkel rögzített szolgáltatási megállapodás.",
+        "Az SLI és SLO ugyanaz; az SLA a hibakeret számszerű értéke."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 10 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 268,
+      "question": "Miért nem tekinthető a virtuális lemez önmagában fájlrendszernek?",
+      "options": [
+        "Mert a fájlrendszert a hálózati végpont hozza létre",
+        "Mert a virtuális lemez csak objektumokat kezel",
+        "Mert virtuális lemezen nem lehet adatot tárolni",
+        "Mert a fájlokat és könyvtárakat egy külön fájlrendszerréteg szervezi"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 10 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 269,
+      "question": "Egy közös szolgáltatás költségét több termék között kell megosztani. Mi szükséges lehet a címkézésen túl?",
+      "options": [
+        "A megosztott tétel kihagyása a költségértékelésből.",
+        "Dokumentált allokációs szabály.",
+        "Minden költség hozzárendelése az első címkézett erőforráshoz.",
+        "A termékek SLO-jának azonos értékre állítása."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 10 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 270,
+      "question": "Melyik állítás helyes a cloud compute és a fizikai erőforrások kapcsolatáról?",
+      "options": [
+        "A cloudban kizárólag szoftveres erőforrások léteznek.",
+        "A fizikai erőforrások megmaradnak, de más kezelési felületen érhetők el.",
+        "A függvényfuttatás megszünteti a memóriaigényt.",
+        "A menedzselt platformok nem használnak processzort."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 10 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 271,
+      "question": "Egy VM törlése után az adatlemez is eltűnt, pedig az eredményeket meg kellett volna őrizni. Melyik döntést kellett volna korábban ellenőrizni?",
+      "options": [
+        "A dokumentum fájlnevét",
+        "A kapcsolt lemez törlési és megőrzési beállítását",
+        "A prezentáció diaszámát",
+        "A felhasználói böngésző típusát"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 11 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 272,
+      "question": "A felhasználó hibát jelzett, de a naplólekérdezés üres. Mit ellenőriznél a következtetés előtt?",
+      "options": [
+        "Az időablakot, adatgyűjtést, táblát és hozzáférést.",
+        "Csak a jelenlegi erőforrásállapotot; a korábbi időablakot nem vizsgálnám.",
+        "Csak a lekérdezés szintaxisát; az adatgyűjtést megfelelőnek tekinteném.",
+        "Az esemény hiányát véglegesnek tekinteném."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 11 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 273,
+      "question": "Mi a dead-letter kezelés szerepe a bemutatott üzenetfeldolgozási modellben?",
+      "options": [
+        "Az ismételten sikertelen üzenetek elkülönítése és kivizsgálásuk támogatása.",
+        "Az üzenet üzleti tartalmának automatikus kijavítása.",
+        "A sikeresen feldolgozott üzenetek gyorsítótárazása.",
+        "Az üzenet adatbázis-tranzakcióvá alakítása."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 11 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 274,
+      "question": "Miért nem oldja meg önmagában a közös fájlmegosztás a párhuzamos módosítások problémáját?",
+      "options": [
+        "Mert a jogosultságok, zárolás és alkalmazási koordináció továbbra is szükséges lehet",
+        "Mert file storage-on nem módosítható fájl",
+        "Mert a fájlmegosztás csak objektumokon működik",
+        "Mert a több kliens automatikusan külön másolatot kap"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 11 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 275,
+      "question": "Melyik meghatározás különíti el helyesen a skálázhatóságot az elasztikusságtól?",
+      "options": [
+        "A skálázhatóság kizárólag fizikai szerverekre vonatkozik",
+        "A két fogalom minden esetben azonos",
+        "Az elasztikusság csak kapacitásnövelést jelent",
+        "A skálázhatóság a kapacitás változtathatósága, az elasztikusság annak dinamikus igazítása"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 11 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 276,
+      "question": "Miért nem elég a control plane elérhetősége az alkalmazás teljes elérhetőségének igazolására?",
+      "options": [
+        "Mert a menedzselt control plane megszünteti a node-kapacitást.",
+        "Mert az elérhető control plane automatikusan kijavít minden image-et.",
+        "Mert az alkalmazás kizárólag a control plane-ben tárolja minden adatát.",
+        "Mert a workload kapacitása, elhelyezése, állapota és függőségei külön is szükségesek."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 12 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 277,
+      "question": "Melyik meghatározás különíti el helyesen a span és a trace fogalmát?",
+      "options": [
+        "A span eseménynapló, a trace annak megőrzési ideje.",
+        "A span számlázási egység, a trace a költség-előrejelzés.",
+        "A span a teljes szolgáltatás SLO-ja, a trace a mért SLI.",
+        "A span részműveletet, a trace az összekapcsolt kérésvégrehajtást írja le."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 12 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 278,
+      "question": "Miért nem elegendő a replikált adatbázis megléte egy logikai adattörlés elleni védelem igazolásához?",
+      "options": [
+        "Mert a törlési művelet a replikált példányra is átkerülhet.",
+        "Mert a replikáció kizárólag zónák között működik.",
+        "Mert a replikált adatbázis nem fogadhat olvasási kéréseket.",
+        "Mert a replikáció mindig teljes adatvesztést eredményez."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 12 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 279,
+      "question": "Miért kell az RPO és az RTO teljesülését külön vizsgálni?",
+      "options": [
+        "Mert mindkettő kizárólag az adatvesztést méri.",
+        "Mert az RTO kizárólag a mentések megőrzésére vonatkozik.",
+        "Mert az adatvesztési időablak és a helyreállítási idő külön célérték.",
+        "Mert mindkettő kizárólag a szolgáltatás kiesési idejét méri."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 12 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 280,
+      "question": "Egy szolgáltatás neve helyes címre oldódik, de a cél felé nincs útvonal. Melyik feltételt kell javítani?",
+      "options": [
+        "A forgalom továbbítását.",
+        "A célpéldányok számát.",
+        "A név írásmódját.",
+        "A válaszlehetőségek sorrendjét."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 12 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 281,
+      "question": "Egy vállalat mentésből állítja helyre a rendelési adatbázist. Az adatok rendelkezésre állnak, de az alkalmazás hálózati kapcsolata még hiányzik. Mikor tekinthető helyreállítottnak az üzleti szolgáltatás?",
+      "options": [
+        "Amikor a helyreállítási folyamat elindult.",
+        "Amikor az adatbázis virtuális gépe elindult.",
+        "Amikor a mentési fájl másolása befejeződött.",
+        "Amikor az alkalmazás szükséges üzleti funkciói ismét használhatók."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 282,
+      "question": "Egy AWS-erőforrás publikus subnetben van, de külső kliens nem éri el. Melyik megállapítás helyes?",
+      "options": [
+        "Minden privát subnetet törölni kell.",
+        "A publikus subnet önmagában bizonyítja az elérhetőséget.",
+        "A DNS szükségszerűen hibás.",
+        "A címzést, az útvonalat, a szabályokat és a céloldali szolgáltatást is ellenőrizni kell."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 283,
+      "question": "Miért nem helyettesíti a privát hálózati elérés a jogosultságkezelést?",
+      "options": [
+        "Mert a jogosultságkezelés csak nyilvános végpontnál értelmezhető.",
+        "Mert a privát elérés kizárólag a titkosítást szabályozza.",
+        "Mert privát hálózaton minden művelet automatikusan tiltott.",
+        "Mert az elérési út és az engedélyezett műveletek külön kontrollterületek."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 284,
+      "question": "Miért különbözik a self-healing a tartós hibajavítástól?",
+      "options": [
+        "A működési állapot helyreállítása nem feltétlenül szünteti meg a kiváltó hibát.",
+        "A két fogalom csak kézi és automatikus naplózást különít el.",
+        "A self-healing kizárólag költség-hozzárendelést végez.",
+        "A tartós hibajavítás kizárólag a példányszámot állítja helyre."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 285,
+      "question": "Melyik állítás különíti el helyesen a requestet, limitet és tényleges fogyasztást?",
+      "options": [
+        "A tényleges fogyasztás automatikusan felülír minden deklarált elhelyezési feltételt.",
+        "A request elhelyezési igény, a limit futási korlát, a tényleges fogyasztás pedig eltérhet ezektől.",
+        "Mindhárom ugyanannak a folyamatosan mért értéknek más neve.",
+        "A limit választ node-ot, a request pedig a futás közbeni maximális fogyasztás."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 13 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 286,
+      "question": "Egy CPU-intenzív feldolgozás nem párhuzamosítható jól. Több példány indítása nem hoz érdemi gyorsulást. Melyik vizsgálat illeszkedik a tananyaghoz?",
+      "options": [
+        "Az adatmegőrzés lecserélése image-verziózásra",
+        "További példányok korlátlan indítása az alkalmazás vizsgálata nélkül",
+        "A horizontális skálázás eredményének automatikus kétszeresnek minősítése",
+        "A vertikális kapacitásváltozás tesztelése, a kód korlátainak és teljes feladatköltségnek a figyelembevételével"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 2 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 287,
+      "question": "Miért nem elegendő a JSON-formátum ismerete egy adatmodell kiválasztásához?",
+      "options": [
+        "Mert a JSON csak relációs adatbázisban használható.",
+        "Mert a JSON használata kizárja a kulcsalapú elérést.",
+        "Mert az is számít, hogy egész értéket vagy belső mezőket akarunk elérni.",
+        "Mert minden JSON-adatot gráfmodellben kell tárolni."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 2 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 288,
+      "question": "Egy IaaS virtuális gépnél a szolgáltató kezeli a fizikai hostot. Miért nem tekinthető emiatt automatikusan naprakésznek a VM-en futó rendszer?",
+      "options": [
+        "Mert a fizikai host és a VM szükségszerűen ugyanaz az operációs rendszer.",
+        "Mert a guest operációs rendszer karbantartása külön feladat marad.",
+        "Mert az IaaS VM-en nem telepíthetők frissítések.",
+        "Mert a hypervisor nem használ fizikai erőforrásokat."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 2 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 289,
+      "question": "Egy Amazon Resource Name minden esetben kötelezően tartalmaz kitöltött Region és Account ID mezőt.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 2 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 290,
+      "question": "Miért nem következtethetünk két peeringkapcsolatból automatikus elérésre egy harmadik hálózat felé?",
+      "options": [
+        "Mert a peering mindig megszünteti a DNS-t.",
+        "Mert egy VNetben csak egy subnet lehet.",
+        "Mert a peeringből általános transzitivitás nem feltételezhető.",
+        "Mert peering kizárólag interneten keresztül működik."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 2 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 291,
+      "question": "Melyik leírás illik az observability fogalmához?",
+      "options": [
+        "A belső működés értelmezése az elérhető külső jelekből és kapcsolatokból.",
+        "A naplóadatok megőrzése értelmezés nélkül.",
+        "Kizárólag előre rögzített küszöbök ellenőrzése.",
+        "Az erőforrások szerződéses rendelkezésre állási vállalása."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 3 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 292,
+      "question": "Egy adatbázis megfelelő Encryption at Rest védelme önmagában kompenzálja a túl széles alkalmazás-Permissiont és a hiányzó monitoringot.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 3 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 293,
+      "question": "Egy konténeres alkalmazás új példányt kap telepítéskor. A felhasználók által feltöltött fájloknak a régi példány eltávolítása után is meg kell maradniuk. Hová kerüljenek a megőrzendő fájlok?",
+      "options": [
+        "A példány életciklusától független tartós tárolásba.",
+        "Kizárólag a régi container saját írható rétegébe.",
+        "Az image tagjének szövegébe.",
+        "A containerpéldány nevébe."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 3 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 294,
+      "question": "Egy szolgáltatóspecifikus menedzselt adatplatform jelentősen csökkenti a fejlesztési és üzemeltetési munkát, de növeli a migrációs függőséget. Melyik döntés követi az előadás logikáját?",
+      "options": [
+        "A szolgáltatás automatikus elutasítása minden vendor lock-in miatt.",
+        "A migrációs kockázat figyelmen kívül hagyása, mert menedzselt szolgáltatásról van szó.",
+        "Az üzleti és működési előny, valamint a hordozhatósági és migrációs kockázat dokumentált összevetése.",
+        "Multi-cloud környezet kötelező kialakítása a workload követelményeitől függetlenül."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 3 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 295,
+      "question": "Egy konténeres rendelésfeldolgozó alkalmazásnál a pod kiesése után a Kubernetes új podot indít. A szolgáltatás mégsem tudja folytatni a munkát, mert a korábbi példány saját írható rétegében voltak a feldolgozandó adatok. Melyik következtetés a legpontosabb?",
+      "options": [
+        "A podpótlás a futtatási állapotot célozza; a megőrzendő adatokat a cserélhető példánytól függetlenül kell kezelni.",
+        "A Service nevét kell módosítani, mert az tárolja a feldolgozandó adatokat.",
+        "A container image tagje önmagában visszaállítja a feldolgozatlan üzleti adatokat.",
+        "A Kubernetesnek az új pod helyett automatikusan vissza kellett volna állítania a régi írható réteget."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 3 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 296,
+      "question": "A VM életciklusában melyik művelet hozza létre elsősorban a virtuális processzort, memóriát, hálózati kapcsolatot és tárolót tartalmazó alap-erőforráskonfigurációt?",
+      "options": [
+        "Snapshot",
+        "Provisioning",
+        "Monitoring",
+        "Restore"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 4 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 297,
+      "question": "Melyik Azure-objektum szolgál kapcsolódó erőforrások logikai és életciklus-alapú csoportosítására?",
+      "options": [
+        "Microsoft Entra tenant",
+        "Azure geography",
+        "Management group",
+        "Resource group"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 4 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 298,
+      "question": "Egy folyamatosan nagy terhelésű, állapottartó feldolgozásnál a serverless költsége és futási korlátai kedvezőtlenek. Mi a helyes döntési elv?",
+      "options": [
+        "A szolgáltatási limiteket figyelmen kívül kell hagyni",
+        "Más futtatási modellt is értékelni kell a workload jellemzői alapján",
+        "A monitoringot ki kell kapcsolni",
+        "A serverless minden esetben kötelező"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 4 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 299,
+      "question": "Egy webáruház óránként készít mentést. Az üzlet legfeljebb 20 perc adatvesztést fogad el. A legrosszabb vizsgált esetben 55 percnyi rendelés veszne el. Mi a helyes következtetés?",
+      "options": [
+        "A mentési retention növelése önmagában megoldja a problémát.",
+        "Az adatvédelmi kialakítás nem teljesíti a 20 perces RPO-célt.",
+        "A mentési gyakoriság megfelel, mert óránként készül mentés.",
+        "Az RTO teljesülése automatikusan biztosítja az RPO-t."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 4 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 300,
+      "question": "Miért nem jelent a rapid elasticity korlátlan kapacitást?",
+      "options": [
+        "Kvóták, technikai limitek, régiós kapacitás és költségkeretek korlátozhatják",
+        "Mert kizárólag tárhelyre alkalmazható",
+        "Mert csak on-premises környezetben működik",
+        "Mert a kapacitás soha nem növelhető"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 4 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 301,
+      "question": "Miért lehet hibás a Kubernetes-elhelyezést kizárólag pillanatnyi gépterhelés alapján értelmezni?",
+      "options": [
+        "A scheduler kizárólag az image nevét vizsgálja.",
+        "A request mindig azonos a pillanatnyi fogyasztással.",
+        "A scheduler a deklarált igényeket, hozzárendelhető kapacitást és elhelyezési feltételeket is figyelembe veszi.",
+        "A pod deklarációja automatikusan új fizikai kapacitást hoz létre."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 5 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 302,
+      "question": "Egy függvényhosting megfelelőségét vizsgáljuk. Melyik ellenőrzési csomag releváns?",
+      "options": [
+        "Kizárólag a trigger megnevezése",
+        "Csak az, hogy a szolgáltatás serverlessként szerepel-e",
+        "Csak a szolgáltatás neve és a forráskód hossza",
+        "Futásidő, memória, párhuzamosság, integrációk és hostingfeltételek"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 5 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 303,
+      "question": "Mit jelent, ha egy alkalmazás neve sikeresen feloldódik?",
+      "options": [
+        "A kapcsolat biztosan működik.",
+        "A névhez tartozó cím megállapítható.",
+        "Minden port engedélyezett.",
+        "A szolgáltatás biztosan egészséges."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 5 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 304,
+      "question": "Egy vállalat managed adatbázisra váltott. A platform karbantartásának egy részét a szolgáltató végzi, de az alkalmazás hibás rekordokat hoz létre. Melyik területet kell elsősorban felülvizsgálni?",
+      "options": [
+        "A szolgáltatás nevének és márkájának kiválasztását.",
+        "Az ügyfél adatmodelljét és alkalmazási adatellenőrzését.",
+        "A szolgáltató fizikai szervereinek elhelyezését.",
+        "A platformkarbantartás szolgáltatói ütemezését."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 5 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 305,
+      "question": "Egy régió nem teljesíti a kötelező adatrezidencia-feltételt. Mi a helyes eljárás?",
+      "options": [
+        "A régió kiválasztása, ha olcsóbb",
+        "A követelmény figyelmen kívül hagyása, ha van Availability Zone",
+        "A régió kiválasztása, ha közelebb található",
+        "A régió kizárása"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 5 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 306,
+      "question": "Egy többzónás alkalmazás egyetlen zónában működő azonosítási szolgáltatást használ. Melyik tervezési lépés szükséges a zónareziliencia igazolásához?",
+      "options": [
+        "A másodlagos régió azonnali megszüntetése.",
+        "Kizárólag a webkiszolgálók számának növelése.",
+        "Kizárólag a backup retention módosítása.",
+        "Az azonosítási függőség zónahiba melletti elérhetőségének vizsgálata."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 6 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 307,
+      "question": "Melyik állítás írja le az AWS Network ACL-t?",
+      "options": [
+        "Virtuális hálózatok közvetlen peeringje.",
+        "Subnet szintű, állapotmentes hálózati kontroll.",
+        "Webes kérések alkalmazási szintű irányítása.",
+        "Privát szolgáltatásvégpont."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 6 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 308,
+      "question": "Egy hibás konfiguráció security posture eredményének lezárása csak a remediation és annak visszaellenőrzése után indokolt.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 6 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 309,
+      "question": "Egy szervezet több, különböző időben terhelt alkalmazást vonna össze kevesebb fizikai hostra. A csapat azt állítja, hogy a virtualizáció miatt kapacitástervezésre már nincs szükség. Melyik értékelés helyes?",
+      "options": [
+        "Helyes, ha minden VM azonos operációs rendszert használ.",
+        "Helyes, mert a hypervisor korlátlan fizikai memóriát hoz létre.",
+        "Nem helyes, mert egy hoston soha nem futhat több VM.",
+        "Nem helyes: a megosztott host kapacitását és a workloadok együttes terhelését továbbra is tervezni kell."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 6 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 310,
+      "question": "Azure virtuális gépek támogatott régióközi replikációjához és DR-átvételéhez melyik szolgáltatás kapcsolódik?",
+      "options": [
+        "Azure Site Recovery",
+        "Azure Backup retention policy",
+        "Azure Blob lifecycle management",
+        "Azure Files"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 6 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 311,
+      "question": "Egy működő VM védelmével kapcsolatban melyik párosítás pontos?",
+      "options": [
+        "Backup: kizárólag memóriafoglalás; restore: kapacitásnövelés.",
+        "Snapshot: adott időponthoz kapcsolódó állapotrögzítés; backup: szabályozottan megőrzött helyreállítási másolat.",
+        "Image: hosszú távú adatvédelem; backup: új VM-ek alapkonfigurációja.",
+        "Snapshot: fizikai szerver; restore: image-ek tárolója."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 7 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 312,
+      "question": "Egy kritikus alkalmazásnál téves adattörlés, alkalmazáspéldány-kiesés és teljes régiókiesés ellen is védekezni kell. A vállalat alacsony adatvesztési toleranciát és gyors helyreállítást vár, de korlátozott költségkerettel rendelkezik. Melyik tervezési megközelítés a leginkább indokolható?",
+      "options": [
+        "A backup, HA és DR-kontrollok üzleti célokhoz igazított kombinációja, igazolt helyreállítási képességgel.",
+        "Egyetlen technológiai termék kiválasztása minden hibamodellhez.",
+        "Kizárólag a mentési gyakoriság növelése.",
+        "Kizárólag az alkalmazáspéldányok számának növelése."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 7 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 313,
+      "question": "Egy jóváhagyott régióban, titkosítással létrehozott adatbázis automatikusan megfelelőnek tekinthető akkor is, ha nincs tulajdonosa, megfelelő hozzáférés-kezelése, naplózása vagy auditálható Evidence-e.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 7 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 314,
+      "question": "Egy csapat több containeres komponenst működtet. A telepítések és a kívánt példányszám kezelése összetetté vált, de még nem döntöttek platformról. Melyik vizsgálat a leginkább indokolt?",
+      "options": [
+        "Annak felmérése, szükség van-e orkesztrációra, és vállalható-e a választott platform üzemeltetési összetettsége.",
+        "Kubernetes bevezetése kizárólag azért, mert minden containerhez kötelező.",
+        "A registry használata a futó példányok kívánt számának automatikus kezelésére.",
+        "Az összes komponens egyetlen containerbe kényszerítése az igények vizsgálata nélkül."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 7 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 315,
+      "question": "Egy Azure-alkalmazás összes erőforrása ugyanahhoz az üzleti szolgáltatáshoz tartozik, de az elsődleges és helyreállítási komponensek külön régiókban működnek. Az erőforrások életciklusa összehangolt. Melyik csoportosítás lehet szakmailag indokolható?",
+      "options": [
+        "A management group használata közvetlen erőforrás-konténerként.",
+        "Az elsődleges és helyreállítási régió egyetlen Availability Zone-nak tekintése.",
+        "Az erőforrások közös resource groupban kezelése, ha az életciklus- és jogosultsági követelmények ezt támogatják.",
+        "Az erőforrások kötelező elhelyezése külön Microsoft Entra tenantokban."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 7 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 316,
+      "question": "Két adatplatform megfelel az adatmodellnek. Az egyiknél bizonytalan a szükséges bővítmény támogatása, a másiknál magasabb a becsült költség. Mi a helyes döntési irány?",
+      "options": [
+        "A két jelöltet funkcióik számának összeadásával kell rangsorolni.",
+        "A magasabb költségű jelöltet kell választani, mert az ár bizonyítja a megfelelést.",
+        "A kompatibilitást és a teljes workload-követelményeket validálni kell a végleges választás előtt.",
+        "Az alacsonyabb alapárú jelöltet kell választani a bővítmény vizsgálata nélkül."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 8 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 317,
+      "question": "Melyik megfogalmazás választja szét helyesen az ACID consistency és durability tulajdonságát?",
+      "options": [
+        "A consistency a műveletek együtt sikerülése, a durability az integritási szabályok megőrzése.",
+        "A consistency a cache frissessége, a durability a cache-bejegyzés élettartama.",
+        "A consistency a szabályos adatállapot megőrzése, a durability a sikeres commit eredményének tartóssága.",
+        "A consistency a véglegesített módosítás tartóssága, a durability a párhuzamos műveletek elkülönítése."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 8 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 318,
+      "question": "Egy adatplatform privát elérést és titkosítást használ, de az alkalmazás minden felhasználó számára ugyanazzal a széles jogosultsággal olvas adatot. Melyik változtatás kezeli közvetlenül a fennmaradó problémát?",
+      "options": [
+        "A titkosítási beállítások megtartása és kizárólag a hálózati út rövidítése.",
+        "A cache-TTL csökkentése minden adatkörnél.",
+        "Az auditnaplózás kikapcsolása a terhelés csökkentésére.",
+        "Az alkalmazási adat-hozzáférés és a szükséges jogosultságok célzott szétválasztása."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 8 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 319,
+      "question": "Miért nem garantálja egy container image önmagában, hogy az alkalmazás minden környezetben azonosan működik?",
+      "options": [
+        "Mert az image nem tartalmazhat alkalmazást.",
+        "Mert a registry minden indításkor megváltoztatja az alkalmazáskódot.",
+        "Mert a külső konfiguráció, szolgáltatások és a futtató platform feltételei továbbra is eltérhetnek.",
+        "Mert ugyanaz az image csak egyszer indítható el."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 8 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 320,
+      "question": "Egy regionális erőforrás attól még elérhető lehet a világ különböző pontjairól, hogy maga az erőforrás egy meghatározott régióhoz kapcsolódik.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 8 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 321,
+      "question": "Melyik leírás adja meg helyesen a megmaradó sikerarány-alapú hibakeretet?",
+      "options": [
+        "Az adott időablak megengedett hibáinak száma mínusz az ugyanott bekövetkezett releváns hibák.",
+        "Az SLO-célérték mínusz az átlagos CPU-kihasználtság.",
+        "A pénzügyi budget mínusz a helyreállítás költsége.",
+        "A teljes kérésszám mínusz a sikeres kérések száma."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 9 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 322,
+      "question": "Melyik állítás különíti el helyesen az AWS Organizations Rootot az AWS account root userétől?",
+      "options": [
+        "Az Organizations Root a szervezeti hierarchia legfelső konténere, a root user pedig egy adott account teljes hozzáférésű identitása.",
+        "A két fogalom ugyanazt az identitást jelenti eltérő konzolnézetben.",
+        "Az Organizations Root közvetlenül workload-erőforrásokat tartalmaz, a root user pedig accountokat csoportosít.",
+        "Az Organizations Root egy globális erőforrás, a root user pedig Availability Zone."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 9 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 323,
+      "question": "Miért nem teljes rendelkezésre állási megoldás önmagában a load balancer?",
+      "options": [
+        "Mert kizárólag IP-címet oszt ki.",
+        "Mert a közös függőségek, például az adatbázis, továbbra is kieshetnek.",
+        "Mert nem használhat több célpéldányt.",
+        "Mert minden célpéldányt hibásnak tekint."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 9 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 324,
+      "question": "Több kliens ugyanazt a könyvtárstruktúrát szeretné elérni. Melyik storage-modell illeszkedik legjobban?",
+      "options": [
+        "File storage",
+        "Object storage minden esetben",
+        "Kizárólag memória",
+        "Ideiglenes helyi lemez"
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 9 of 13) _ Main Moodle.html"
+      ]
+    },
+    {
+      "id": 325,
+      "question": "Miért kell külön kezelni a szolgáltatáselérhetőség, a feature-támogatás, a kvóta és a tényleges kapacitás vizsgálatát?",
+      "options": [
+        "Mert egy szolgáltatás regionális jelenléte nem garantálja a szükséges konfiguráció támogatását, az engedélyezett használati határt vagy a fizikai kapacitás rendelkezésre állását.",
+        "Mert a négy fogalom kizárólag eltérő szolgáltatók azonos jelentésű elnevezése.",
+        "Mert a kvóta minden esetben nagyobb a tényleges kapacitásnál.",
+        "Mert a kapacitás kizárólag a resource group vagy Organizational Unit méretétől függ."
+      ],
+      "sources": [
+        "Gyakorló vizsgateszt - Felhőszolgáltatások Kérdésbank 600 (page 9 of 13) _ Main Moodle.html"
       ]
     }
   ]
