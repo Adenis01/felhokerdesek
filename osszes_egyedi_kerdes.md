@@ -1,4 +1,4 @@
-# Összegyűjtött egyedi kérdések (325 db)
+# Összegyűjtött egyedi kérdések (380 db)
 
 **1.** Miért lehet félrevezető a napi átlagos válaszidő önmagában?
 - a. Az átlagból közvetlenül meghatározható a gyökérok.
@@ -1925,3 +1925,333 @@
 - b. Mert a négy fogalom kizárólag eltérő szolgáltatók azonos jelentésű elnevezése.
 - c. Mert a kvóta minden esetben nagyobb a tényleges kapacitásnál.
 - d. Mert a kapacitás kizárólag a resource group vagy Organizational Unit méretétől függ.
+
+**326.** Stabil alapigény és bizonytalan tesztterhelés mellett vállalásalapú kedvezményt vizsgálsz. Mire alapoznád a műszaki értékelést?
+- a. A tesztterhelés automatikus állandónak tekintésére.
+- b. Kizárólag a legnagyobb kedvezmény ígéretére.
+- c. A teljes jelenlegi kapacitás változatlan lekötésére használatvizsgálat nélkül.
+- d. A bizonyítható alapigényre, előrejelzésre és konstrukciós feltételekre.
+
+**327.** Melyik állítás írja le helyesen a latency és throughput különbségét?
+- a. A latency a művelet várakozási ideje, a throughput az időegység alatt átvitt adatmennyiség
+- b. A két fogalom minden workloadnál azonos értéket ad
+- c. A latency redundancia, a throughput titkosítás
+- d. Mindkettő kizárólag kapacitást jelent
+
+**328.** Egy távoli storage-másolat olvasható, de új adatok nem írhatók bele. Milyen működési állapotról van szó?
+- a. Részleges, csak olvasási üzleti működésről
+- b. Teljes aktív-aktív működésről
+- c. Automatikus adatvesztésről
+- d. Korlátlan írási rendelkezésre állásról
+
+**329.** Egy adatbázist elérő alkalmazásnak csak olvasásra van szüksége, de módosítási és törlési jogosultságot is kapott. Melyik célzott változtatás indokolt?
+- a. A jogosultságok szűkítése a szükséges műveletekre.
+- b. Nagyobb adatbázis-kapacitás biztosítása.
+- c. Hosszabb auditnapló-megőrzés, a jogosultságok változatlanul hagyásával.
+- d. Rövidebb cache-TTL beállítása.
+
+**330.** Mit jelöl a kvóta a bemutatott kapacitáskezelési összefüggésben?
+- a. Az engedélyezett fogyasztás határát
+- b. A szolgáltatás minden időpontban szabad fizikai kapacitását
+- c. Az alkalmazás indulásának maximális idejét
+- d. A már működő alkalmazáspéldányok garantált számát
+
+**331.** Miért nem egyenértékű két megoldás pusztán az alacsonyabb ár alapján?
+- a. A költségoptimalizálásnál a szolgáltatási cél nem vizsgálandó.
+- b. Azonos működési, teljesítmény- és megbízhatósági követelmény mellett kell összevetni őket.
+- c. Az olcsóbb megoldás automatikusan azonos szolgáltatási szintet ad.
+- d. A redundancia kizárólag pénzügyi tétel, nem működési követelmény.
+
+**332.** Egy privát alkalmazás NAT-on keresztül kifelé kér adatot. Miért nem azonos a visszaérkező válasz egy tetszőleges új, kívülről kezdeményezett kapcsolattal?
+- a. Mert a válasz mindig új publikus szervert hoz létre.
+- b. Mert a kifelé indított kérésre nem érkezhet válasz.
+- c. Mert a NAT minden bejövő portot megnyit.
+- d. Mert a válasz a kifelé indított kapcsolathoz tartozik, míg az új bejövő kapcsolat külön elérési döntés.
+
+**333.** Mit határoz meg elsősorban az útvonal?
+- a. A kérés titkosítását.
+- b. A célpéldány alkalmazásverzióját.
+- c. A felhasználó jogosultságát.
+- d. A forgalom továbbításának irányát.
+
+**334.** Egy konténeres API cserélhető replikákkal működik, a tartós állapot külső tárolóban van. Több replika indítása után a közös adatforrás korlátozza az átbocsátást. Melyik értelmezés helyes?
+- a. A több replika miatt a közös adatforrás már nem függőség.
+- b. A külső állapottárolás garantálja a korlátlan horizontális skálázást.
+- c. Az állapot életciklusa megfelelően elválhat a compute-tól, de a közös függőség kapacitása továbbra is korlát lehet.
+- d. A replika cserélhetősége automatikusan bővíti az adatforrást.
+
+**335.** Több elkülönített alkalmazáshálózat közös DNS- és hibrid kapcsolati szolgáltatást használna. Melyik topológiát érdemes mérlegelni?
+- a. Hub–spoke mintát.
+- b. Egyetlen közös Security Groupot minden platformon.
+- c. Minden adatbázis közvetlen publikálását.
+- d. A címtartományok szándékos átfedését.
+
+**336.** Melyik kifejezés írja le azt, hogy az adatok mely országban vagy földrajzi területen tárolhatók és dolgozhatók fel?
+- a. Resource ID
+- b. Vendor lock-in
+- c. Adatrezidencia
+- d. Availability Zone ID
+
+**337.** Melyik állítás írja le helyesen a zonális és a zone-redundant erőforrás közötti különbséget?
+- a. A két fogalom teljesen azonos, kizárólag a szolgáltatók elnevezése tér el.
+- b. A zonális erőforrás globális, a zone-redundant erőforrás kizárólag regionális elérési ponttal rendelkezik.
+- c. A zonális erőforrás egy konkrét Availability Zone-hoz kötődik, míg a zone-redundant szolgáltatás több zóna infrastruktúráját használhatja.
+- d. A zonális erőforrás több régióban, a zone-redundant erőforrás egyetlen adatközpontban működik.
+
+**338.** Egy Kubernetes Deployment kívánt példányszámát növelik, de az új podok nem helyezhetők el a rendelkezésre álló worker node-okon. Mit kell elsőként a kívánt állapot és a tényleges futás különbségeként értékelni?
+- a. A registryben található tagek betűrendjét.
+- b. A kívánt példányszám automatikus törlését a definícióból.
+- c. A podok erőforrásigényét, az elhelyezési feltételeket és a cluster rendelkezésre álló kapacitását.
+- d. A Service nevét, mert az önmagában fizikai kapacitást teremt.
+
+**339.** Egy vállalat olyan helyi rendszert működtet, amely internetkapcsolat nélkül is elérhető kell maradjon. Melyik megállapítás helyes?
+- a. A SaaS automatikusan megoldja a követelményt
+- b. A rendszerhez nincs szükség infrastruktúrára
+- c. Az on-premises komponens indokolt lehet
+- d. Mindenképpen public cloudra kell váltani
+
+**340.** Miért csökkenhet a PaaS használatakor az infrastruktúra-üzemeltetési teher?
+- a. Az ügyfél minden biztonsági felelőssége megszűnik
+- b. Az ügyfél alkalmazáskódja megszűnik
+- c. A szolgáltatás nem használ infrastruktúrát
+- d. A szolgáltató az operációs rendszert és a futtatási platformot is kezeli
+
+**341.** Miért érdemes a hálózati címtartományt a későbbi összekapcsolásokra tekintettel megválasztani?
+- a. A subnetek később nem tartalmazhatnak erőforrást.
+- b. A DNS kizárólag azonos tartományokkal működik.
+- c. Az átfedő tartományok nehezíthetik a hálózatközi kommunikációt.
+- d. A CIDR automatikusan titkosít.
+
+**342.** Application Insightsban sikeres HTTP-válasz látszik, de a jelentkezés nem rögzült. Az adatbázis saját naplói nincsenek begyűjtve. Mi indokolt?
+- a. Az Application Insights automatikusan tartalmazza az adatbázis minden belső eseményét.
+- b. Az üzleti mentést külön ellenőrizzük, a kérésfüggőséget vizsgáljuk, és tisztázzuk a hiányzó platformadatokat.
+- c. A hiányzó adatbázisnapló bizonyítja, hogy nem történt adatbázisművelet.
+- d. A HTTP-siker alapján a mentést bizonyítottnak tekintjük.
+
+**343.** Melyik állítás jellemzi a community cloud modellt?
+- a. Kizárólag egyetlen magánszemély használja
+- b. Mindig több public szolgáltatót kapcsol össze
+- c. Bárki számára nyilvános ügyféladatokat biztosít
+- d. Közös követelményekkel rendelkező szervezetek közössége használja
+
+**344.** Egy vállalat a földrajzilag legközelebbi régiót tervezi használni. A vállalati telephelyről végzett mérések azonban egy távolabbi, szintén megfelelő régiónál alacsonyabb késleltetést mutatnak. Melyik döntés követi az előadásban bemutatott modellt?
+- a. A távolabbi régió automatikus kizárása.
+- b. A mért latency figyelembevétele a többi követelménnyel együtt.
+- c. A legközelebbi régió automatikus kiválasztása.
+- d. A hálózati teljesítmény figyelmen kívül hagyása.
+
+**345.** Miért lehet indokolt külön queue-t használni egy pub/sub előfizetés mögött?
+- a. Mert az eseményterjesztés mellett az adott fogyasztói ág terhelését is kezelni kellhet.
+- b. Mert a queue minden előfizetőnek közös feldolgozási állapotot biztosít.
+- c. Mert a queue megszünteti az előfizetők közötti funkcionális különbséget.
+- d. Mert így a topic automatikusan adatbázisként működik.
+
+**346.** Egy vállalat több DR-stratégiát hasonlít össze. A legfontosabb üzleti szempont az alacsony RTO, de a folyamatos erőforrásköltség is korlátozott. Mi a helyes döntési megközelítés?
+- a. A célértékeket, készen tartott kapacitást, aktiválási munkát és költséget együtt kell értékelni.
+- b. A DR-modellt kizárólag a rendelkezésre álló régiók száma határozza meg.
+- c. Mindig a legolcsóbb mentési modellt kell választani.
+- d. Mindig teljes kapacitású Active-Active modellt kell alkalmazni.
+
+**347.** Egy termékadatot az adatbázisban módosítottak, de a cache invalidálása sikertelen volt. Az olvasók még a régi értéket kapják. Melyik állítás helyes?
+- a. Az adatbázis helyes állapota mellett is maradhat elavult cache-másolat.
+- b. A probléma kizárólag a relációs séma hiányából eredhet.
+- c. A cache hit bizonyítja, hogy az adatbázis-módosítás sikertelen volt.
+- d. A managed cache automatikusan visszavonja az adatbázis-módosítást.
+
+**348.** Melyik meghatározás írja le legpontosabban a tárolási követelményprofilt?
+- a. Az adatkör, elérési modell, teljesítmény, életciklus, védelem, integráció és költség összefoglalása
+- b. Kizárólag a maximális kapacitás megadása
+- c. A kiválasztott termék nevének rögzítése
+- d. A tárolt fájlok alfabetikus listája
+
+**349.** Miért nem elegendő az API-platformok közös gateway-szerepe a teljes szolgáltatási megfeleltetéshez?
+- a. Mert az összehasonlítás csak az API-k elnevezése alapján végezhető el.
+- b. Mert minden gateway azonos management plane-t és developer portalt biztosít.
+- c. Mert a közös gateway-szerep kizárja az API-k publikálását.
+- d. Mert az életciklus-, policy-, hálózati és backend-integrációs követelmények eltérő képességeket igényelhetnek.
+
+**350.** A teszt- és éles környezet fogyasztását szeretnéd elkülöníteni. Melyik megoldás támogatja ezt?
+- a. A naplózás egységes kikapcsolása.
+- b. Következetes környezet- és tulajdonoscímkék.
+- c. Minden erőforrás azonos riasztási küszöbe.
+- d. A két környezet SLO-jának összevonása.
+
+**351.** Miért nem tekinthető az edge helyszín automatikusan teljes cloud régiónak?
+- a. Mert az edge helyszín minden esetben az ügyfél saját adatközpontja.
+- b. Mert az edge helyszín általában korlátozottabb szolgáltatáskészlettel és kapacitással rendelkezik, és gyakran egy szülő régióhoz kapcsolódik.
+- c. Mert edge helyszínen semmilyen adatfeldolgozás nem végezhető.
+- d. Mert az edge helyszín kizárólag számlázási kedvezményt jelent.
+
+**352.** Egy vállalat több Azure subscriptionre ugyanazt a régióhasználati szabályt szeretné alkalmazni. Melyik szint a legmegfelelőbb?
+- a. Availability Zone
+- b. Management group
+- c. Egyetlen Azure resource
+- d. Egyetlen virtuális gép
+
+**353.** Mit jelent az ephemeral compute a tananyagban?
+- a. Minden konténerben lévő adat szükségszerűen törlendő.
+- b. A futtató példány nem az üzleti adatok egyetlen tartós megőrzési helye.
+- c. A futtató példány soha nem használ üzleti adatot.
+- d. Az alkalmazásnak nem lehet tartós állapota.
+
+**354.** Egy gazdátlan tesztkörnyezet hónapok óta költséget termel. Melyik kontrollkombináció kezelné legjobban a problémát?
+- a. Az erőforrás korlátlan megtartása
+- b. Tulajdonosi tag, lejárati tag és szabályozott resource lifecycle
+- c. Teljes adminisztrátori hozzáférés minden felhasználónak
+- d. A költségriportok kikapcsolása
+
+**355.** Miért nem szűnik meg az ügyfél biztonsági felelőssége SaaS használatakor?
+- a. A SaaS minden környezetben on-premises
+- b. A szolgáltató nem kezel infrastruktúrát
+- c. A SaaS nem használ identitásokat
+- d. A felhasználók, hozzáférések, adatok és saját konfiguráció továbbra is ügyfélfeladat lehet
+
+**356.** Miért kell a HA-tervezés során a megmaradó kapacitást is vizsgálni?
+- a. Mert minden alkalmazáspéldánynak mindig azonos terhelést kell kapnia.
+- b. Mert a HA kizárólag a virtuális gépek számától függ.
+- c. Mert a működő példányoknak kiesés után is ki kell szolgálniuk a szükséges terhelést.
+- d. Mert a mentési kapacitás automatikusan alkalmazáskapacitássá alakítható.
+
+**357.** Melyik művelet tartozik a horizontális kapacitásbővítéshez?
+- a. A futtató példányok számának növelése
+- b. Egy példány memóriájának növelése
+- c. A guest OS frissítése
+- d. Egy példány nagyobb konfigurációra váltása
+
+**358.** Miért kell egy multi-region DR-tervben az alkalmazási függőségeket a célrégióban is vizsgálni?
+- a. Mert a DR-terv kizárólag virtuális gépek indításából állhat.
+- b. Mert a függőségek csak a mentési retentiont befolyásolják.
+- c. Mert a replikált adatok önmagukban nem biztosítják az alkalmazás működőképességét.
+- d. Mert a másodlagos régió nem használhat hálózati szolgáltatásokat.
+
+**359.** Miért jelent az on-premises modell nagyobb közvetlen felelősséget?
+- a. A szolgáltató kezeli az összes alkalmazást
+- b. A kapacitás mindig automatikusan változik
+- c. Nincs szükség üzemeltetési csapatra
+- d. A szervezet több technológiai réteget maga kezel
+
+**360.** Egy szolgáltatás RPO-célja 30 perc. A helyreállítás során 20 percnyi adatvesztést állapítanak meg. Melyik következtetés helyes?
+- a. Az adatvesztési cél nem teljesült.
+- b. A mentési retention nem megfelelő.
+- c. A helyreállítási időcél is biztosan teljesült.
+- d. Az adatvesztési cél teljesült.
+
+**361.** Melyik Azure-elem kapcsolódik a webes kérések alkalmazási szintű irányításához?
+- a. VNet-peering.
+- b. NAT Gateway.
+- c. Application Gateway.
+- d. NSG.
+
+**362.** Melyik állítás jellemzi helyesen a klasszikus inkrementális mentési modellt?
+- a. Minden mentés a kijelölt adathalmaz egészét tartalmazza.
+- b. A mentés folyamatosan működő tartalék adatbázist biztosít.
+- c. A mentés az előző mentés óta történt változásokat rögzíti.
+- d. Minden mentés az utolsó teljes mentés óta történt változásokat tartalmazza.
+
+**363.** Egy éles tartalék példány átlagos terhelése alacsony. Milyen döntés indokolt?
+- a. A tartalék automatikus pazarlásnak minősítése.
+- b. Azonnali törlés az átlagos CPU alapján.
+- c. A monitoring leállítása a tartalék példányon.
+- d. A kiesési, csúcsterhelési és helyreállítási igény vizsgálata a csökkentés előtt.
+
+**364.** Egy alkalmazás új kódverzióját a meglévő futtatási környezetbe helyezik. Melyik művelet történt?
+- a. Fault Domain kialakítása
+- b. Guest OS-leállítás
+- c. Alkalmazásdeployment
+- d. Vertikális skálázás
+
+**365.** Melyik fogalmi besorolás következetes a compute-modellek összehasonlításában?
+- a. Konténer: kapacitáskvóta; Kubernetes: runtime-verzió; serverless: zónaelhelyezés.
+- b. Konténer: futtatási egység; Kubernetes: orkesztrációs platform; serverless: működési modell.
+- c. Konténer: fizikai gép; Kubernetes: guest OS; serverless: backupmodell.
+- d. Konténer: orkesztrációs platform; Kubernetes: image-formátum; serverless: tárolási réteg.
+
+**366.** Egy rendszer webes API-ból és fájleseményre induló feldolgozásból áll. Az API több példány között kiszolgálható; a feldolgozás eredménye külső tárolásba kerül. Melyik terv követi a követelményalapú döntést?
+- a. A függvényjelölt miatt az API válaszidő- és runtime-követelményeit elhagyjuk.
+- b. Az eltérő compute-modellek megszüntetik a közös hozzáférési és adatfüggőségeket.
+- c. Mindkét rész ugyanazt a modellt kapja, kizárólag a közös adatforrás miatt.
+- d. A két workload külön jelöltet kaphat; a hosting, állapot, integráció és teljes költség együtt ellenőrizendő.
+
+**367.** Egy alkalmazásnál az egyik VM kiesésekor a másik példány átveszi a forgalmat, de az átállás alatt rövid megszakítás jelentkezik. Melyik fogalom írja le legjobban a kialakítást?
+- a. Garantáltan megszakításmentes Fault Tolerance.
+- b. Kizárólag Backup and Restore.
+- c. Hosszú távú adatarchiválás.
+- d. Failoverrel működő High Availability.
+
+**368.** Miért nem elegendő egy identity-based Allow szabály önálló vizsgálata?
+- a. Mert az Allow mindig automatikusan explicit Denyra változik
+- b. Mert kizárólag a resource neve határozza meg a hozzáférést
+- c. Mert identity-based policy nem tartalmazhat Permissiont
+- d. Mert az összes alkalmazandó policy-t és korlátozást, köztük az explicit Deny szabályokat is értékelni kell
+
+**369.** Egy vállalat minden workloadját több szolgáltatónál szeretné párhuzamosan futtatni pusztán a lock-in elkerülésére. Melyik kockázatot kell leginkább mérlegelnie?
+- a. A többlet architekturális és üzemeltetési összetettséget
+- b. A measured service hiányát
+- c. A fizikai infrastruktúra megszűnését
+- d. A felhasználói felelősség eltűnését
+
+**370.** Egy másik AWS account principalja rendelkezik forrásoldali Allow szabállyal, de a céloldalon nincs megfelelő trust vagy resource-based engedély. Mi várható?
+- a. A hozzáférés megtagadható
+- b. Automatikus teljes hozzáférés
+- c. A principal root userré válik
+- d. Az erőforrás automatikusan más régióba kerül
+
+**371.** Egy alkalmazás közös Windows fájlútvonalat igényel. Melyik feltételt kell elsőként ellenőrizni egy cloud file szolgáltatásnál?
+- a. A block volume IOPS-át
+- b. Az SMB-támogatást és a klienskompatibilitást
+- c. A Glacier restore-időt
+- d. Az object lifecycle-szabályokat
+
+**372.** Egy DR-próbán az alkalmazás 40 perc alatt helyreáll. Az RTO-cél 30 perc, az RPO-cél 20 perc, a tényleges adatvesztés 10 perc. Melyik értékelés helyes?
+- a. Mindkét cél teljesült.
+- b. Az RTO teljesült, az RPO nem.
+- c. Az RPO teljesült, az RTO nem.
+- d. Egyik cél sem teljesült.
+
+**373.** Egy workloadnál kötelező a meghatározott operációsrendszer-kontroll és egy megfelelőségi követelmény teljesítése. Egy PaaS-jelölt kevesebb üzemeltetési munkát ígér, de a szükséges kontroll támogatása még nem igazolt; egy VM-jelölt nagyobb kezelési feladatot jelent. Melyik döntés követi a tanult workload-alapú módszert?
+- a. A megfelelőségi követelményt figyelmen kívül hagyják, majd csak az árat hasonlítják össze.
+- b. A PaaS-t választják pusztán azért, mert kevesebb üzemeltetési munkát ígér.
+- c. A VM-et választják pusztán azért, mert az absztrakciós létrán alacsonyabb szinten áll.
+- d. Először igazolják, mely jelöltek teljesítik a kötelező kontroll- és megfelelőségi feltételeket; az alkalmasakat ezután üzemeltetés és költség szerint mérlegelik.
+
+**374.** Egy ügyfélportál felhasználói a webes felületet használják; a rendelési adatokat az alkalmazás olvassa. Melyik közvetlen felhasználói kapcsolat indokolt?
+- a. Felhasználó → NAT Gateway.
+- b. Felhasználó → webes belépési pont.
+- c. Felhasználó → minden subnet.
+- d. Felhasználó → adatbázis.
+
+**375.** Melyik policy határozza meg, hogy ki vagy mi veheti fel az IAM Role-t?
+- a. Retention policy
+- b. Cost policy
+- c. Naming policy
+- d. Trust policy
+
+**376.** Egy Kubernetes-csapat külön logikai területre szeretné szervezni két projekt objektumait ugyanazon a clusteren belül. Melyik Kubernetes-fogalmat vizsgálja meg először?
+- a. Container digest
+- b. Namespace
+- c. Snapshot
+- d. VM-image
+
+**377.** Egy adatplatformhoz megfelelő jogosultságok tartoznak, de egy korábbi hozzáférési eseményt nem lehet rekonstruálni. Melyik kontrollterület hiányossága merül fel közvetlenül?
+- a. Partíciótervezés.
+- b. Auditnaplózás.
+- c. Tranzakciós atomicity.
+- d. Cache-élettartam.
+
+**378.** Melyik állítás írja le pontosan a CloudWatch és CloudTrail eltérő szerepét és határát?
+- a. Mindkettő ugyanazt az adatot gyűjti, csak más felületen.
+- b. A CloudTrail minden üzleti naplót kivált, a CloudWatch minden művelet szereplőjét rögzíti.
+- c. A CloudWatch-tünet és CloudTrail-esemény egybeesése önmagában gyökérok-bizonyíték.
+- d. Működési adat és támogatott műveleti előzmény egészítheti ki egymást; a lefedettség konfigurációfüggő.
+
+**379.** Egy regisztrációs szolgáltatás egészségellenőrzése csak a gép elérhetőségét vizsgálja. Az üzleti művelet hibás, a gép azonban válaszol. Mi következik ebből?
+- a. Az ellenőrzés eredménye nem bizonyítja az üzleti funkció működését.
+- b. A válaszoló gép minden alkalmazásfunkciója biztosan megfelelő.
+- c. A hiba csak új zóna létrehozásával vizsgálható.
+- d. A load balancer automatikusan kijavítja az üzleti logikát.
+
+**380.** Melyik következtetés helyes a konténeres csomagolásból?
+- a. A tartós adatkezelés többé nem szükséges.
+- b. A host karbantartása minden esetben megszűnik.
+- c. Az alkalmazás automatikusan Kubernetes-workloaddá válik.
+- d. A hostingmodellt továbbra is ki kell választani.

@@ -261,11 +261,11 @@ def main() -> None:
 <body><h1>Összegyűjtött egyedi kérdések ({len(items)} db)</h1>{''.join(html_cards)}</body></html>"""
     OUT_HTML.write_text(html_doc, encoding="utf-8")
 
-    pct_650 = round(len(items) / 650 * 100, 1)
+    pct_600 = round(len(items) / 600 * 100, 1)
     print(f"Feldolgozott HTML fájlok: {len(html_files)} db")
     print(f"Fájlokban talált kérdés:  {total_seen} db")
     print(f"Újonnan hozzáadott:       {new_added} db")
-    print(f"Összes egyedi kérdés:     {len(items)} db (~{pct_650}% a 650-es bankból)")
+    print(f"Összes egyedi kérdés:     {len(items)} db (~{pct_600}% a 600-as bankból)")
     print(f"Kimenetek:\n  - {OUT_MD}\n  - {OUT_HTML}\n  - {OUT_JSON}")
 
 
